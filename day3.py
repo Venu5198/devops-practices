@@ -74,9 +74,9 @@ class Car:
         return f"{self.brand} {self.model}, Year: {self.year}"
 
 # Creating two car objects with different values
-car1 = Car("Tesla", "Model S", 2022)
-car2 = Car("Toyota", "Fortuner", 2021)
+Car1 = Car("Tesla", "Model S", 2022)
+Car2 = Car("Toyota", "Fortuner", 2021)
 
 # Accessing method to display car info
-print(car1.get_car_details())
-print(car2.get_car_details())
+print(Car1.get_car_details())
+print(Car2.get_car_details())
